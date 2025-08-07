@@ -80,6 +80,7 @@ Required Tools:
 
 - A Google Cloud Project with billing enabled.
 - The [Google Cloud CLI (`gcloud`)](https://cloud.google.com/sdk/docs/install) installed and authenticated (`gcloud auth login`).
+- Optional: The GitHub CLI [gh](https://docs.github.com/en/github-cli/github-cli/quickstart)
 
 Your user account needs these permissions in the target GCP project to run the script:
 
