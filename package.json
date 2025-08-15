@@ -5,6 +5,7 @@
   "scripts": {
     "build": "echo \"No build required for composite action\"",
     "docs": "./node_modules/.bin/actions-gen-readme",
+    "lint": "shellcheck -e SC2148,SC2215,SC1078,SC2016,SC1079,SC2026,SC1011,SC1081,SC1036,SC1088 action.yml && shellcheck scripts/*.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/google-github-actions/run-gemini-cli#readme",
   "devDependencies": {
-    "@google-github-actions/actions-utils": "^0.8.8"
+    "@google-github-actions/actions-utils": "^0.8.8",
+    "shellcheck": "^4.1.0"
   }
 }

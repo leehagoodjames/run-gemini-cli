@@ -266,6 +266,15 @@ project-specific context and instructions to [Gemini CLI]. This is useful for de
 coding conventions, architectural patterns, or other guidelines the model should
 follow for a given repository.
 
+## Linting
+
+This project uses [shellcheck](https://www.shellcheck.net/) to lint shell scripts.
+To run the linter locally, use the following command:
+
+```shell
+npm run lint
+```
+
 ## Contributing
 
 Contributions are welcome! Check out the Gemini CLI
