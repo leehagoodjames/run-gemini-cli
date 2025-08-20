@@ -141,10 +141,7 @@ You can customize the triage workflows by modifying:
 ```
 
 ### Automatic Labeling
-The AI will analyze issues and apply labels such as:
-- `bug` - for reported bugs and errors
-- `enhancement` - for feature requests
-- `documentation` - for docs-related issues
-- `priority/high` - for urgent issues
-- `good first issue` - for beginner-friendly tasks
+The AI will analyze issues and apply two labels:
+- A **priority** label (e.g., `p0`, `p1`, `p2`)
+- A **type** label (e.g., `bug`, `feature request`, `documentation`)
 
