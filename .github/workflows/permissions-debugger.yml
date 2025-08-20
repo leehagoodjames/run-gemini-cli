@@ -26,8 +26,6 @@ permissions:
 
 jobs:
   debug-permissions:
-    if: |-
-      ${{ vars.DEBUG_PERMISSIONS }}
     name: 'Run'
     runs-on: 'ubuntu-latest'
 
