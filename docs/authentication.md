@@ -94,7 +94,7 @@ Your user account needs these permissions in the target GCP project to run the s
 Basic setup for your repository:
 
 ```shell
-./scripts/setup_workload_identity.sh --repo "[OWNER]/[REPO]" --project "[GOOGLE_CLOUD_PROJECT]"
+./auth/setup_workload_identity.sh --repo "[OWNER]/[REPO]" --project "[GOOGLE_CLOUD_PROJECT]"
 ```
 
 **Required Parameters:**
@@ -104,7 +104,7 @@ Basic setup for your repository:
 For example:
 
 ```shell
-./scripts/setup_workload_identity.sh --repo "my-github-org/my-github-repo" --project "my-gcp-project"
+./auth/setup_workload_identity.sh --repo "my-github-org/my-github-repo" --project "my-gcp-project"
 ```
 
 **Usage**
