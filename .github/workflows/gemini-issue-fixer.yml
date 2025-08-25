@@ -183,7 +183,7 @@ jobs:
                         <step id="9" name="Get Pull Request Number">
                             Once you have created a pull request, use the GitHub MCP `list_pull_requests` tool to get the pull request number.
                         </step>
-                        <step id="10" name="Ammend your Plane">
+                        <step id="10" name="Amend your Plan">
                             Use the `gh issue comment --edit-last` CLI tool command to edit your initial comment. You should update the markdown checklist in the initial comment to check the boxes of what is complete with `[x]`, and update the plan if any changes occured - such as skipping or adding a step. Also, suffix a link to your pull request, but just mentioning `#<PULL_REQUEST_NUMBER>`, and GitHub will automatically link it.
                         </step>
                     </steps>
