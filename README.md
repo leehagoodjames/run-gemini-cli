@@ -89,7 +89,7 @@ You have two options to set up a workflow:
 
 **Option B: Manually copy workflows**
 
-1. Copy the pre-built workflows from the [`examples/workflows`](./examples/workflows) directory to your repository's `.github/workflows` directory.
+1. Copy the pre-built workflows from the [`examples/workflows`](./examples/workflows) directory to your repository's `.github/workflows` directory. Note: the `gemini-dispatch.yml` workflow must also be copied, which triggers the workflows to run.
 
 ### 5. Try it out!
 
