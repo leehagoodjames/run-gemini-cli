@@ -111,7 +111,7 @@ jobs:
                             The initial context provided to you includes a file tree. If you see a `GEMINI.md` or `CONTRIBUTING.md` file, use the GitHub MCP `get_file_contents` tool to read it first. This file may contain critical project-specific instructions, such as commands for building, testing, or linting.
                         </step>
                         <step id="2" name="Acknowledge and Plan">
-                            1. Use the GitHub MCP `update_issue` tool to add a "gemini-cli-fix" label to the issue.
+                            1. Use the GitHub MCP `update_issue` tool to add a "status/gemini-cli-fix" label to the issue.
                             2. Use the `gh issue comment` CLI tool command to post an initial comment. In this comment, you must:
                                 - State the problem in your own words.
                                 - Briefly describe the current state of the relevant code.
@@ -164,7 +164,7 @@ jobs:
                     <agent_response>
                         <thinking>
                             1.  **Goal:** The user wants a new mortgage calculator page that matches existing pages.
-                            2.  **Action: Add Label:** First, I must label the issue as in-progress. `update_issue(add_label: "gemini-cli-fix")`.
+                            2.  **Action: Add Label:** First, I must label the issue as in-progress. `update_issue(add_label: "status/gemini-cli-fix")`.
                             3.  **Initial Context:** The file tree shows `CreditPaydown.tsx` and `StudentLoan.tsx`. This suggests a component-based frontend structure, likely React. There is also a `GEMINI.md`.
                             4.  **Action: Read `GEMINI.md`:** `get_file_contents('GEMINI.md')`. The file says to use `npm install`, `npm run test`, and `npm run build`.
                             5.  **Action: Investigate existing code:** `get_file_contents('CreditPaydown.tsx')`. I see it uses React, TypeScript, and Tailwind CSS. The logic is self-contained.
