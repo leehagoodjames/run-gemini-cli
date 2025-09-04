@@ -37,3 +37,12 @@ When asked to modify the action, you should:
 2.  **Plan Your Changes:** Propose a plan that includes modifications to all relevant files.
 3.  **Implement and Verify:** Make the changes and ensure the action still functions as expected. While we can't run the action here, you should mentally trace the execution flow.
 4.  **Update Documentation:** Ensure the `README.md` and any relevant examples are updated to reflect your changes.
+
+### Using the GitHub MCP Server
+
+When using this action with the GitHub MCP server, it's important to provide clear and specific instructions to the Gemini CLI. The following guidelines will help you get the best results:
+
+*   **Be Explicit:** Clearly state the goal of your request. Instead of saying "fix this," provide a detailed description of the problem and the expected outcome.
+*   **Provide Context:** Include as much context as possible in your requests. This can include code snippets, error messages, and links to relevant files.
+*   **Use the Right Tools:** The Gemini CLI has access to a variety of tools. Make sure you are using the right tool for the job. For example, if you want to read a file, use the `read_file` tool.
+*   **Keep it Simple:** Break down complex tasks into smaller, more manageable steps. This will help the Gemini CLI understand your request and provide a more accurate response.
